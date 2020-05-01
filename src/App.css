@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.box{
+  height: 300px;
+  width: 300px;
+  background: wheat;
+  box-shadow: 5px 5px 50px green;
+  margin: 10px
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #3f51b5;
+  color: white;
+  text-align: center;
+}
+.footer>p>a {
+  color: white;
+  text-decoration: none
+}
+
+.footer>p>a:hover {
+  font-weight: 600
+}
+.youtubeLink {
+  color: white !important;
+  font: outline !important;
+  background-color: red;
+  padding: 10px;
+  border-radius: 8px
+}
